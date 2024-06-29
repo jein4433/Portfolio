@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<br lang="en">
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<br>
     <h1>
-        포트폴리오
+        지금까지 풀었던 문제들 정리
     </h1>
 
     <nav>
@@ -19,16 +19,216 @@
         <a href="#">함수 문제</a>
     </nav>
 
-    <div>
+    <br>
+
+    <br>
    <h2>
     1번째 과제: 변수와 자료형 문제
    </h2>
    <p>문제1: 아래에 step 들을 참고하여 변수 a와 b의 값을 바꾸시오</p>
     <img src="https://files.cdn.thinkific.com/file_uploads/523761/images/9d2/20b/24b/1707122452051.png?width=1920" alt="img1-1">
-    <img src="https://files.cdn.thinkific.com/file_uploads/523761/images/cb5/919/c0e/1707122483122.png?width=1920" alt="img1-2">
+    <img src="https://files.cdn.thinkific.com/file_uploads/523761/images/cb5/919/c0e/1707122483122.png?width=1920" alt="img1-2"><br></br>
     <img src="https://files.cdn.thinkific.com/file_uploads/523761/images/e5b/a03/cb2/1707122509021.png?width=1920" alt="img1-3">
     <img src="https://files.cdn.thinkific.com/file_uploads/523761/images/c14/f59/b88/1707122530337.png?width=1920" alt="img1-4">
+    <p2> <br></br>풀이:
+        <br>let a = 30 // a를 30으로 설정 해준다.</br> 
+        let b = 50 //b를 50으로 설정해준다.
+        <br>console.log(a,b) // a와 b를 프린트한다. </br>
+        <br>temp = a // temp를 명령한 후 temp의 값을 a로 설정한다.</br> 
+        a = b //a의 값을 b의 값으로 바꾼다.
+        <br>b = temp // b의 값을 temp (a)의 값으로 바꾼다.</br>
+        console.log(a,b)  // 50,30
+    </p2>
+    <p>문제2: 다음 연산자들의 결과값을 예측한후 console.log를 통해 확인해 보시오</p>
+    <p2>
+        20 + 30
+        <br>“20” + “30”</br>
+        “Hello” + " " + 2021
+        <br>1 + 2 * 3</br>
+        (1 + 3) ** 2
+        <br>1 / 0</br>
+        6 % 2
+        <br>7.5 % 2</br>
+        5 == 5
+        <br>5 === 5</br>
+        5 == “5”
+        <br>5 === “5”</br>
+        5 != 5.0
+        <br>5 !== 5.0</br>
+        “true” === true
+        <br>5 <= 5.0</br>
+        5 >= 5
+        <br>true || true</br>
+        true || false
+        <br>true && true</br>
+        true && false
+        <br>!true</br>
+        !false
+        </p2>
+        <br></br><p3><a href="https://hackmd.io/@OloqQ_W3RTSkaYKlcOWj6w/Assignment-1">HackMd에서 보기</a></p3>
+
    <h2>2번째 과제: 배열 문제</h2>
+   <p>주어진 배열을 가지고 다음 질문에 코드를 짜시오</p>
+   <p3><a href="https://hackmd.io/s4qBxVcBTkiIeOJWBu2z0A">HackMd에서 보기</a></p3>
+
+   <h2>3번째 과제: if문 문제</h2>
+   <p>유저가 입력하는 숫자가 0인지 음수인지 양수인지 판단하는 프로그램을 만드시오</p>
+   <p2>풀이:
+    <br>let number = 10</br>
+    if (number > 0) {
+        <br>console.log("양수입니다.")</br>
+   } else if (number < 0) {
+    <br>console.log("음수입니다.")</br>
+   } else {console.log("0입니다.")}
+   </p2>
+   <p>나는 대학교 교수이다. 레포트 점수에 따라 등급을 매기는 프로그램을 만드시오</p>
+   <p2>풀이:
+    <br>let score = 100</br>
+if (score >= 90 && score < 101){  
+  <br>console.log("A")</br>
+} else if (score >= 80 && score < 90){  
+  <br>console.log("B")</br>
+} else if (score >= 70 && score < 80){  
+  <br> console.log("C")</br>
+} else if (score >= 60 && score < 70){
+  <br> console.log("D")</br>
+} else if (score <= 59 && score >=0){
+  <br>console.log("F")</br>
+} else {
+  <br>console.log("점수를 제대로 입력해주세요.")</br>
+}
+   </p2>
+   <p>한 지원자가 우리 회사에 지원을 할때 합격, 예비, 아니면 탈락인지 모여조는 프로그램 만들기</p>
+   <br></br>
+    <p3><a href="https://hackmd.io/@OloqQ_W3RTSkaYKlcOWj6w/HJePTUY8R">HackMd에서 보기</a></p3>
+
+   <h2>4번쨰 과제: 반복문 문제</h2>
+   <p>1부터 100까지 더하는 for문을 만들고 결과를 출력하시오</p>
+   <p2>풀이:
+    <br>let a = 0</br>
+    for (let i = 1; i <= 100; i++)
+     <br> console.log(a+i)</br></p2>
+   <p>1부터 100까지 홀수만 출력하자</p>
+   <p2>풀이:
+   <br>for (let i = 1; i <= 100; i+=2)</br>
+   console.log(i)</p2>
+   <p>1부터 50까지 369 결과를 프린트하자</p>
+   <p2>풀이:
+    <br>for (let i = 1; i <= 50; i++){</br>
+        let iString = i.toString()
+        <br> let number = ''</br>
+        for (let a = 0; a < iString.length; a++){
+            <br>        if (iString[a] == '3' || iString[a] == '6' || iString[a] == '9'){</br>
+            number += "짝"
+            <br>   }</br>
+        } 
+        <br> console.log(number.length > 0 ? number : i)</br>
+      } 
+   </p2>
+   <p>주어진 숫자가 소수인지 아닌지 출력하는 프로그램 짜기</p>
+   <p2>풀이:
+    <br>let number = 3</br>
+let prime = true
+<br></br>
+for (let i = 2; i < number ; i++){
+    <br> if (number % i == 0){</br>
+    prime = false; }
+    <br>}</br>
+if (number == 1 || number == 0){
+    <br>  prime = false;</br>
+  }
+  <br></br>
+ console.log(prime)</p2>
+ <br></br>
+ <p3><a href="https://hackmd.io/@OloqQ_W3RTSkaYKlcOWj6w/Assignment-1-4">HackMd에서 보기</a></p3>
+
+
+   <h2>문제5: 함수 문제</h2>
+   <p>"안녕 내 이름은 제시카야"라는 문장을 프린트하는 함수 'greet'를 만들기 </p>
+   <p2>풀이:
+    <br>function greet(){</br>
+        console.log("안녕 내 이름은 제시카야")
+        <br> }</br>
+   </p2>
+   <p>이름을 매개변수로 전달받아 다양한 이름을 프린트 할 수 있게 함수를 수정하기</p>
+   <p2>풀이:
+    <br>function greet(name){</br>
+        console.log("안녕 내 이름은", name,"야")
+        <br>  }</br>
+   </p2>
+   <p>매개변수로 전달받은 이름을 반환하게 함수를 수정하기</p>
+   <p2>풀이:
+    <br>function greet(name){</br>
+        console.log("안녕 내 이름은", name,"야")
+        <br>   return name</br>
+       }
+       <br></br>
+       greet ("할리")
+   </p2>
+   <p> meetAt 함수를 만들어주세요</p>
+   <p2>풀이:
+    <br>function meetAt(year,month,day){</br>
+        if (year < 1 || month < 1 || month > 12 || day < 1 || day > 31){
+            <br>  console.log("날짜를 제대로 입력해주세요")</br>
+          return
+                  <br>    } if (month == 4 || month == 6 || month == 9 || month == 11){</br>
+          if (day > 30){
+            <br>    console.log("날짜를 제대로 입력해주세요")</br>
+            return
+            <br> } </br>
+          }if (month == 2){
+            <br>    if (day >= 30){</br>
+              console.log("날짜를 제대로 입력해주세요")
+              <br>      return</br>
+            } else if (day == 29){
+                <br> if (year % 4 != 0){</br>
+                console.log("날짜를 제대로 입력해주세요")
+                <br> return</br>
+              }
+              <br></br>
+            }
+            <br> }if (year > 0 && month === undefined && day === undefined){</br>
+            console.log(year,"년")
+            <br> } else if (year > 0 && month > 0 && day === undefined){</br>
+            console.log(year,"년",month,"월")
+            <br>} else if (year > 0 && month > 0 && day > 0){</br>
+            console.log(year,"/",month,"/",day) 
+            <br> }</br>
+        }
+        <br></br>
+        meetAt(2024,6,28)
+   </p2>
+   <p>findSmallestElement 함수를 구현하기</p>
+   <p2>풀이:
+    <br>function findSmallestElement(arr){</br>
+        let result = arr[0];
+        <br>    if (arr.length === 0) {</br>
+          return 0;
+          <br> }</br>
+        for (let i = 1; i < arr.length; i++){
+            <br>  if (result > arr [i]){</br>
+            result = arr[i]
+            <br>  }</br>
+        }
+        <br>return result;</br>
+      }
+      <br>let smallestNumber = findSmallestElement([100,500,7,65,3,2,1])</br>
+      console.log(smallestNumber)
+   </p2>
+   <p>돈을 매개변수로 받으면 몇개의 지폐와 동전이 필요한지 최소 개수를 계산해주는 함수를 만드시오</p>
+   <p2>풀이:
+    <br>let unit = [50000,10000,5000,1000,500,100]</br>
+    function moneyCalculator(money){
+        <br>for ( let i = 0; i < unit.length; i++){</br>
+      let number = Math.floor(money/unit [i])
+      <br>  console.log(unit [i] + " X " + number)</br>
+      money = money - (unit[i] * number)
+      <br>}</br>
+    }
+    <br> moneyCalculator(12300)</br>
+   </p2>
+   <br></br>
+   <p3><a href="https://hackmd.io/@OloqQ_W3RTSkaYKlcOWj6w/Assignment-1-5">HackMd에서 보기</a></p3>
    </div>
    
 
